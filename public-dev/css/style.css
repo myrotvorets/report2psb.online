@@ -1,0 +1,65 @@
+body {
+	background: #EBEBEB;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+html, body, #container {
+	height: 100vh;
+}
+
+a, a:hover, a:visited {
+	color: #0051A9;
+}
+
+.btn-primary {
+	background: #0056B3;
+	color: #FFF;
+	border-color: #002984;
+}
+
+.btn-primary:hover {
+	background: #7599EA;
+}
+
+#header {
+	background: #001951 url(https://psb4ukr.natocdn.net/logos/myrotvorets.svg#t) no-repeat center / contain;
+}
+
+#footer {
+	background: #0056B3;
+	color: #FFF;
+}
+
+#footer a {
+	color: #FFD500;
+}
+
+#header h1 {
+	font-size: 1.5rem;
+	text-shadow: 0 1px 1px #000;
+	color: #FFD500;
+}
+
+#header h2 {
+	font-size: .75rem;
+	color: #FFD500;
+}
+
+#nav, #nav li, #nav .dropdown-menu {
+	background: #001647;
+}
+
+#nav a {
+	color: #FFD500;
+}
+
+#nav a:hover {
+	color: #000;
+	background: #FFD500;
+}
+
+.required:after {
+	content: " *";
+	font-weight: bold;
+	color: red;
+}

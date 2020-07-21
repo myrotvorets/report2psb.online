@@ -1,0 +1,8 @@
+composer.lock
+/public/
+/vendor/
+/config/config.php
+
+/.tmp/
+/node_modules/
+/.internal/
